@@ -1,57 +1,62 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-image: url('../images/pattern.png');
+    /* background-image: url('../images/green_background.jpg'); */
     background-repeat: repeat;
-  }
+}
 
-  .jumbotron-detail-apple-pie{
-    background: url('../images/products/applepie.jpg') no-repeat fixed;
-  }
-  
-  .jumbotron-other{
-    background: url('../images/carousel3.jpg') no-repeat fixed;
- }
- 
-   .jumbotron{
-      box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
-      height: 40vh;
-      background-size: cover;
-   }
-  
-   .carousel {
+.nav {
+    background-color: rgb(147, 240, 243);
+}
+
+.nav-link {
+    color: black;
+}
+
+.carousel {
     margin-bottom: 4rem;
-  }
-  
-  .carousel-caption {
+}
+
+.carousel-caption {
     bottom: 3rem;
     z-index: 10;
-  }
+}
 
-  .carousel-item {
+.carousel-item {
     height: 32rem;
     max-width: 100vw;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-  }
+}
 
-.homepage-carousel-image-gold{
-    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
-    background-image:url('../images/hiresgold.jpg');
-  }
-  .homepage-carousel-image-silver{
-    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
-    background-image:url('../images/silver_bar_pile.jpg');
-  }
-  .homepage-carousel-image-platinum{
-    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
-    background-image:url('../images/platinum_bar_pile.jpg');
-  }
-  .footer{
-      background-color: khaki;
-      text-align: center;
-      font-style: italic;
-      
+.homepage-carousel-image-gold {
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+    background-image: url('../images/carousel-gold-pic.jpg');
+}
 
-  }
+.homepage-carousel-image-silver {
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+    background-image: url('../images/carousel-silver-pic.jpg');
+}
+
+.homepage-carousel-image-platinum {
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+    background-image: url('../images/carousel-platinum-pic.jpg');
+}
+
+.footer {
+    background-color: khaki;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

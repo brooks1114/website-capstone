@@ -14,7 +14,7 @@
 <body>
     <!-- Navigation Bar functionality Begins -->
     <header>
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs fixed-top">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Precious Metals Home Page</a>
             </li>
@@ -47,68 +47,111 @@
             <!-- Navigation Bar functionality Ends -->
 
             <!-- Carousel functionality Begins -->
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active homepage-carousel-image-gold">
-                        <div class="container">
+            <div class="container-fluid">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active homepage-carousel-image-gold">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h5>GOLD DEALS</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <p><a class="btn btn-lg btn-primary btn-carousel" href="product_gold.html"
+                                            role="button">Shop Gold Now!!</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item homepage-carousel-image-silver">
                             <div class="carousel-caption">
-                                <h5>GOLD DEALS</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                                <p><a class="btn btn-lg btn-primary btn-carousel" href="product_gold.html"
-                                        role="button">Shop Gold Now!!</a></p>
+                                <h5>SILVER DEALS</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                                <p><a class="btn btn-lg btn-primary btn-carousel" href="product_silver.html"
+                                        role="button">Shop Silver Now!!</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item homepage-carousel-image-platinum">
+                            <div class="carousel-caption">
+                                <h5>PLATINUM DEALS</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                                <p><a class="btn btn-lg btn-primary btn-carousel" href="product_platinum.html"
+                                        role="button">Shop Platinum Now!!</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item homepage-carousel-image-silver">
-                        <div class="carousel-caption">
-                            <h5>SILVER DEALS</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                            <p><a class="btn btn-lg btn-primary btn-carousel" href="product_silver.html"
-                                    role="button">Shop Silver Now!!</a></p>
-                        </div>
-                    </div>
-                    <div class="carousel-item homepage-carousel-image-platinum">
-                        <div class="carousel-caption">
-                            <h5>PLATINUM DEALS</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                            <p><a class="btn btn-lg btn-primary btn-carousel" href="product_platinum.html"
-                                    role="button">Shop Platinum Now!!</a></p>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
             <!-- Carousel functionality Ends -->
-            home page
+
+
+            <!-- Spot Price table Begins -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="table-responsive text-center ">
+                        <table class="table table-striped table-hover table-bordered table-light">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" colspan="3">Spot Price in USD</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Precious Metal</th>
+                                    <th scope="col">Ounce</th>
+                                    <th scope="col">Kilo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Gold</td>
+                                    <td>$1,975.43</td>
+                                    <td class="table-success">$53,453.22</td>
+                                </tr>
+                                <tr>
+                                    <td>Silver</td>
+                                    <td>$25.65</td>
+                                    <td>$824.67</td>
+                                </tr>
+                                <tr>
+                                    <td>Platinum</td>
+                                    <td>$985.44</td>
+                                    <td>$31,682.63</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Spot Price table Ends -->
 
             </main>
+
+            <footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg">
+                <div class="container-fluid footer">
+                    <p><span>©</span>Precious Metals Inc 2022</p>
+            </footer>
             <!-- This plug in must remain at the end of the file just before the closing body tag -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
                 crossorigin="anonymous"></script>
-</body>
 
-<footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg">
-    <div class="container-fluid footer">
-        <p><span>©</span>Precious Metals Inc 2022</p>
-</footer>
+</body>
 
 </html>
