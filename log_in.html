@@ -51,22 +51,23 @@
 
                 <div class="container-fluid>
                     <div class=" row">
-                    <div class="row row justify-content-center">
-                        <div class="col-sm-8 mb-3 form-group">
-                            <label for="userName" class="form-label">User name</label>
-                            <input type="text" class="form-control" id="userName" placeholder="User name">
+                    <form class="row g-3">
+                        <div class="row row justify-content-center">
+                            <div class="col-sm-8 mb-3 form-group">
+                                <!-- Added Browser defaults to User Name and Password fields on log in button -->
+                                <label for="validationUserName" class="form-label">User name</label>
+                                <input type="text" class="form-control" id="validationUserName" value="" required>
+                            </div>
+                            <div class="col-sm-8 mb-3 form-group">
+                                <label for="validationPassword" class="form-label">Password</label>
+                                <input type="text" class="form-control" id="validationPassword" value="" required>
+                            </div>
+                            <button class="btn btn-success btn-lg btn-block mb-3" type="submit">Log In</button>
                         </div>
-                        <div class="col-sm-8 mb-3 form-group">
-                            <label for="password">Password</label>
-                            <input type="text" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <button class="btn btn-success btn-lg btn-block mb-3" type="submit">Log In</button>
-                    </div>
                     </form>
                 </div>
             </div>
             </div>
-
             <h2 class="text-center text-muted">Don't have an existing account? <a href="registration.html">Sign-up</a>
             </h2>
 
