@@ -60,3 +60,8 @@ body {
     margin-left: -15px;
 }
 
+td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
