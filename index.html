@@ -12,180 +12,216 @@
 </head>
 
 <body>
+
     <!-- Navigation Bar functionality Begins -->
-    <header>
-        <ul class="nav nav-tabs fixed-top">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Precious Metals Home Page</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                    aria-expanded="false">Shop by Category</a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                        <a href="product_gold.html">
-                            <img src="assets/images/carousel-gold-pic.jpg" width="30" height="20"> Gold
+
+
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Precious Metals Inc</span>
+            <!--Nav bar with button that is responsive for sm screen-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!--ms-auto margin start and set to auto-->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="index.html">Home Page</a>
                     </li>
-                    <li class="dropdown-item">
-                        <a href="product_silver.html">
-                            <img src="assets/images/carousel-silver-pic.jpg" width="30" height="20"> Silver
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">Products For Sale</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item c" href="product_gold.html">
+                                <img src="assets/images/carousel-gold-pic.jpg" width="50" height="30"><b>Gold</b></a>
+                            <a class="dropdown-item" href="product_silver.html">
+                                <img src="assets/images/carousel-silver-pic.jpg" width="50"
+                                    height="30"><b>Silver</b></a>
+                            <a class="dropdown-item" href="product_platinum.html">
+                                <img src="assets/images/carousel-platinum-pic.jpg" width="50"
+                                    height="30"><b>Platinum</b></a>
+                        </div>
                     </li>
-                    <li class="dropdown-item">
-                        <a href="product_platinum.html">
-                            <img src="assets/images/carousel-platinum-pic.jpg" width="30" height="20"> Platinum
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="log_in.html">
+                            <img src="assets/images/Login Image.jpg" width="60" height="50"></a>
                     </li>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="log_in.html">Log In</a>
-            </li>
-        </ul>
-        <header>
-            <!-- Navigation Bar functionality Ends -->
-
-            <!-- Carousel functionality Begins -->
-            <div class="container-fluid">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active homepage-carousel-image-gold">
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h5>GOLD DEALS</h5>
-                                    <p>Of all the precious metals, gold is the most popular investment worldwide.</p>
-                                    <p><a class="btn btn-lg btn-primary btn-carousel" href="product_gold.html"
-                                            role="button">Shop Gold Now!!</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item homepage-carousel-image-silver">
-                            <div class="carousel-caption">
-                                <h5>SILVER DEALS</h5>
-                                <p>Silver is an inexpensive precious metal and is the perfect
-                                    option for those looking to start investing in metals.</p>
-                                <p><a class="btn btn-lg btn-primary btn-carousel" href="product_silver.html"
-                                        role="button">Shop Silver Now!!</a></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item homepage-carousel-image-platinum">
-                            <div class="carousel-caption">
-                                <h5>PLATINUM DEALS</h5>
-                                <p>Platinum is more rare than gold so it is an excellent option in diversifying your
-                                    precious metals investments.</p>
-                                <p><a class="btn btn-lg btn-primary btn-carousel" href="product_platinum.html"
-                                        role="button">Shop Platinum Now!!</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
             </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar functionality Ends -->
 
-            <!-- Carousel functionality Ends -->
+    <!-- Carousel functionality Begins -->
+    <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active homepage-carousel-image-gold">
+                    <div class="container">
+                        <div class="carousel-caption">
 
-            <!-- Added Iframe videos for fun. ratio replace height and width so it would auto adjust based on screen size. col centered and fluid so home page will scroll to show header footer functionality-->
-            <div class="container">
-                <div class="row">
-                    <div class="justify-content-center">
-                        <div class="container-fluid text-center">
-                            <p>Want to learn why Gold is good for you? Watch this video</p>
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/wcJrRWYmBVM" title="YouTube video player"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="container-fluid text-center">
-                            <p>Want to learn why Silver is good for you? Watch this video</p>
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/xopX2Gl3qxE" title="YouTube video player"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="container-fluid text-center">
-                            <p>Want to learn why Platinum is good for you? Watch this video</p>
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/SyK5JKDu1OI" title="YouTube video player"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
+                            <p class="carousel_message">Of all the precious metals, gold is the most popular
+                                precious metal investment in the world.</p>
+                            <p><a class="btn btn-lg btn-primary btn-carousel" href="product_gold.html"
+                                    role="button">Shop Gold Now!!</a></p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--  Iframe end -->
-            <!-- Spot Price table Begins -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="table-responsive text-center ">
-                        <table class="table table-striped table-hover table-bordered table-light">
-                            <thead>
-                                <tr>
-                                    <th class="text-center" colspan="3">Spot Price in USD</th>
-                                </tr>
-                                <tr>
-                                    <th scope="col">Precious Metal</th>
-                                    <th scope="col">Ounce</th>
-                                    <th scope="col">Kilo</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Gold</td>
-                                    <td>$1,975.43</td>
-                                    <td class="table-success"><strong>Today's MEGA ULTRA
-                                            DEAL!!!!</strong><br><em>$53,453.22 </em><br><a
-                                            href="product_gold.html">Purchase Here</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Silver</td>
-                                    <td>$25.65</td>
-                                    <td>$824.67</td>
-                                </tr>
-                                <tr>
-                                    <td>Platinum</td>
-                                    <td>$985.44</td>
-                                    <td>$31,682.63</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="carousel-item homepage-carousel-image-silver">
+                    <div class="carousel-caption">
 
+                        <p class="carousel_message">Silver is an inexpensive precious metal and is the
+                            perfect
+                            option for those looking to start investing in metals.</p>
+                        <p><a class="btn btn-lg btn-primary btn-carousel" href="product_silver.html" role="button">Shop
+                                Silver Now!!</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item homepage-carousel-image-platinum">
+                    <div class="carousel-caption">
+
+                        <p class="carousel_message">Platinum is more rare than gold so it is an excellent
+                            option
+                            in diversifying your
+                            precious metals investments.</p>
+                        <p><a class="btn btn-lg btn-primary btn-carousel" href="product_platinum.html"
+                                role="button">Shop Platinum Now!!</a></p>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel functionality Ends -->
 
-            <!-- Spot Price table Ends -->
+    <!-- Added Iframe videos for fun. ratio replace height and width so it would auto adjust based on screen size. col centered and fluid so home page will scroll to show header footer functionality-->
+    <div class="container">
+        <div class="row">
+            <div class="justify-content-center">
+                <div class="container-fluid text-center">
+                    <div class="video-header">
+                        <p>Want to learn why Gold is great for you? Watch this FREE video</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/wcJrRWYmBVM" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="video-header">
+                        <p>For an easy to understand beginers guide to Silver watch this video at no cost!
+                        </p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/xopX2Gl3qxE" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="container-fluid text-center">
+                    <div class="video-header">
+                        <p>Already investing in Gold and Silver and thinking of diversifying into
+                            Platinum?<br>Here
+                            is an absolutely FREE video just for you!</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/SyK5JKDu1OI" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Iframe end -->
+    <!-- Spot Price table Begins -->
+    <div class="container-fluid spot-price-table">
+        <div class="row">
+            <div class="table-responsive text-center ">
+                <table class="table table-striped table-hover table-bordered table-light">
+                    <thead>
+                        <tr>
+                            <th class="text-center spot-price-table-header-text" colspan="3">Spot Price in
+                                USD
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="spot-price-table-col-header-text">Precious Metal</th>
+                            <th scope="col" class="spot-price-table-col-header-text">Ounce</th>
+                            <th scope="col" class="spot-price-table-col-header-text">Kilo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gold</td>
+                            <td>$1,975.43</td>
+                            <td class="table-success"><strong>Today's MEGA ULTRA
+                                    DEAL!!!!</strong><br><em>$53,453.22 </em><br><a href="product_gold.html">Purchase
+                                    Here</a></td>
+                        </tr>
+                        <tr>
+                            <td>Silver</td>
+                            <td>$25.65</td>
+                            <td>$824.67</td>
+                        </tr>
+                        <tr>
+                            <td>Platinum</td>
+                            <td>$985.44</td>
+                            <td>$31,682.63</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            </main>
+        </div>
+    </div>
+    <!-- Spot Price table Ends -->
 
-            <footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg">
-                <div class="container-fluid footer">
-                    <p><span>©</span>Precious Metals Inc 2022</p>
-            </footer>
-            <!-- This plug in must remain at the end of the file just before the closing body tag -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script>
+    <!-- This displays the feedback icon along the side of the window for the user to reach the contact us form - Begins -->
+    <div class="nav-item" tabindex="0"
+        style="font-size: 0px; cursor: pointer; position: fixed; top: 376px; bottom: auto; display: block; background-color: transparent; border: none; z-index: 2000000018; right: 0px;">
+        <a class="nav-link" href="contact.html">
+            <img src="https://sjc1.qualtrics.com/WRQualtricsSiteIntercept/Graphic.php?IM=IM_3yKp2nFO4GPtXrD"
+                alt="Feedback Link" style="border: none; text-decoration: none; padding: 0px; margin: 0px;">
+        </a>
+    </div>
+
+    <!-- This displays the feedback icon along the side of the window for the user to reach the contact us form - Ends -->
+
+    <footer class="custom_footer text-dark d-flex justify-content-center fixed-bottom bg-mg">
+        <p class="custom_footer"><span>©</span>Precious Metals Inc 2022</p>
+    </footer>
+
+    <!-- This plug in must remain at the end of the file just before the closing body tag -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,6 +1,6 @@
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    /* padding-top: 3rem;
+    padding-bottom: 3rem; */
     background-repeat: repeat;
 }
 
@@ -10,6 +10,23 @@ body {
 
 .nav-link {
     color: black;
+    font-size: 25px;
+}
+
+.navbar-brand{
+    color:black;
+    font-size: 25px;
+    align-content: center;
+}
+
+.dropdown-item{
+    font-size: 40px;
+    color: black;
+}
+
+.carousel_message{
+    font-size: 30px;
+    color: white;
 }
 
 .carousel {
@@ -22,6 +39,7 @@ body {
 }
 
 .carousel-item {
+
     height: 32rem;
     max-width: 100vw;
     background-size: cover;
@@ -44,8 +62,10 @@ body {
     background-image: url('../images/carousel-platinum-pic.jpg');
 }
 
-.footer {
-    background-color: khaki;
+.custom_footer {
+
+    color: white;
+    background-color: black;
     text-align: center;
     font-style: italic;
 }
@@ -64,3 +84,28 @@ td {
     vertical-align: middle;
   }
 
+.h2{
+    text-decoration: solid;
+
+}
+
+.video-header{
+    font-weight: bold;
+    text-decoration:underline;
+    font-size: 30px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.spot-price-table{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.spot-price-table-header-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.spot-price-table-col-header-text{
+    font-size: 25px;
+}
